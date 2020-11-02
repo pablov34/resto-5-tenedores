@@ -1,13 +1,9 @@
 {
   "expo": {
-    "name": "restoTripAdvisor",
-    "slug": "restoTripAdvisor",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "version": "1.0.0",
+    "name": "5-tenedores",
+    "slug": "5-tenedores",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -18,14 +14,12 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": false
     },
     "android": {
-	  "package": "com.pablovaccari.cincotenedores",
+      "package": "com.agustinnavarrogaldon.cincotenedores",
       "config": {
         "googleMaps": {
           "apiKey": "AIzaSyCl35awgvcdHhJUeujhwoNZBm-BZCZZ164"
@@ -38,14 +32,8 @@
         "LOCATION",
         "ACCESS_COARSE_LOCATION",
         "ACCESS_FINE_LOCATION"
-      ],
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+      ]
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "description": ""
   }
 }
